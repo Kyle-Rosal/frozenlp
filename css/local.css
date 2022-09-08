@@ -1,8 +1,12 @@
 
+/* -- -- -- Common -- --  -- -- -- > */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+/* < -- -- -- -- -- -- -- -- -- */
+
 }
 
 .header__wrapper {
@@ -58,7 +62,6 @@
 }
 .ov__description-wrapper {
     width: 850px;
-    height: 350px;
     background-image: url("/images/ov_description_bg.jpg");
     display: flex;
     flex-flow: row wrap;
@@ -78,7 +81,7 @@
 }
 
 .ov__des-txt {
-    margin-bottom: 42px;
+    margin-bottom: 45px;
 }
 .pv__wrapper {
     width: 100%;
@@ -130,4 +133,79 @@
     background-position: center;
     border-radius: 20px;
     margin: 12px 0 60px;
+}
+.char__wrapper {
+    width: 100%;
+    background-image:url("/images/char_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.char__col-left-wrapper {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    overflow-wrap: break-word ;
+    margin-top: 30px;
+}
+.char__col-right-wrapper {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    overflow-wrap: break-word ;
+    margin-top: 30px;
+}
+.char__img-caption {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.char__img-left-des {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-right: 40px;
+}
+.char__img-right-des {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 40px;
+}
+.char__see-btn {
+    height: 70px;
+    width: 380px;
+    background-image: url("/images/char_see_bg_btn.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    margin: 12px 0 60px;
+}
+.char__others-wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    color: white;
+    border-top: 1px solid lightblue;
+}
+.char__other {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    overflow-wrap: break-word;
+    width: 30%;
+    margin-top: 80px;
+}
+.char__other-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.char__other-des {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
 }

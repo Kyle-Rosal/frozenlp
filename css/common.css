@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: "Hiragino Kaku Gothic Pro";
+    font-family: "Hiragino Kaku Gothic Pro", sans-serif;
 }
 .section__wrapper{
     display: flex;
@@ -34,11 +34,13 @@ body {
     font-size: 24px;
     line-height: 1.5;
     font-weight: bold;
+    text-align: justify;
 }
 .section__des-txt-2 {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 30px;
+    text-align: justify;
 }
 .section__des-wrapper-hide {
     color: white;
@@ -51,6 +53,13 @@ body {
 .section__see-btn-wrapper{
     display: flex;
     justify-content: center;
+}
+.section__two-col-wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 60px;
+    color: white;
 }
 
 
