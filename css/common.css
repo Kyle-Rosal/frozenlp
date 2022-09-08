@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Hiragino Kaku Gothic Pro";
+}
+.section__wrapper{
+    margin: 0px 300px 0px;
+}
+.section__titles-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 120px;
+}
+.section__title-1 {
+    color: white;
+    font-size: 52px;
+    margin-bottom: 28px;
+}
+.section__sub-title-1 {
+    color: white;
+    font-size: 28px;
+}
