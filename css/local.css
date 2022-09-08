@@ -102,3 +102,32 @@
     display: flex;
     justify-content: center;
 }
+.intro__see-btn {
+    height: 70px;
+    width: 380px;
+    background-image: url("/images/intro_see_bg_btn.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    margin: 12px 0 60px;
+}
+.story__wrapper {
+    width: 100%;
+    background-image: url("/images/story_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.story__see-btn {
+    height: 70px;
+    width: 380px;
+    background-image: url("/images/story_see_bg_btn.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    margin: 12px 0 60px;
+}

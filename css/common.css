@@ -48,4 +48,9 @@ body {
 .section__hide {
     display: none;
 }
+.section__see-btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
 
