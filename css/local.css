@@ -304,6 +304,7 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
+    position: relative;
 }
 .hl__info-see-more {
     background-image: url("/images/hl_see_more_btn.png");
@@ -314,6 +315,7 @@ body {
     border-radius: 50%;
     margin-top: 55px;
     margin-left: 35px;
+    position: absolute;
 }
 .hl__info-see-less {
     background-image: url("/images/hl_see_less_btn.png");
@@ -322,9 +324,9 @@ body {
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
     top: 55px;
-    right: 24px;
+    right: 10px;
     display: none;
 }
 .hl__info-des {
@@ -332,5 +334,95 @@ body {
     line-height: 1.5;
     text-align: justify;
     margin-bottom: 30px;
+}
+.staff__wrapper {
+    background-image: url("/images/staff_bg.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.staff_info-des-wrapper {
+    display: flex;
+    flex-flow: row;
+}
+.staff__info-see-more {
+    background-image: url("/images/hl_see_more_btn.png");
+    background-position: center;
+    border: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-top: 55px;
+    margin-left: 35px;
+}
+.staff__info-des {
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+    margin: 0px 0px 6px 50px;
+}
+.staff_info-txt {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+} 
+.staff__info-ending-txt {
+    font-size: 16px;
+    line-height: 1.5;
+    
+}  
+.staff__info-sub-end-txt {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.staff__info-img-wrapper {
+    display: flex;
+    justify-content: end;
+    width: 204px;
+    height: 253px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.staff__info-table-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.staff__info-table {
+    text-align: center;
+    width: 100%;
+    margin: 20px 50px 60px;
+}
+.staff__info-table-body {
+    color: white;
+    font-size: 16px;
+}
+.staff__info-table-head {
+    background-image: url("/images/staff_info_table_b_img.jpg");
+    font-weight: bold;
+    padding: 18px 0px 18px;
+}
+.staff__info-td-name {
+    padding: 18px 0px 18px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.staff__info-id-txt {
+    color: 2e2e33;
+}
+.staff__sepline-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.staff__sepline-ending-txt {
+    font-size: 20px;
+    color: white;
+    margin: 100px 0px 32px;
 }
 

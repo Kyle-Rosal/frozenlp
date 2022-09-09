@@ -39,6 +39,7 @@ $(document).on('click', '.char__see-btn',function(){
 })
 
 /* -- -- -- Highlights see more and see less -- --  -- -- -- > */
+
 $(document).on('click', '.hl__info-see-more', function() {
     $(this).hide();
     $(this).parent().children('.hl__info-see-less').fadeIn(1000);
@@ -46,12 +47,18 @@ $(document).on('click', '.hl__info-see-more', function() {
     console.log($(this).parent().parent("div").children("div").children('.section__hide'));
     
 })
-
 $(document).on('click', '.hl__info-see-less',function(){
     $(this).hide();
     $(this).parent().children('.hl__info-see-more').fadeIn(1000);
     $(this).parent().parent("div").children("div").children('.section__hide').fadeOut(1000)
     console.log($(this).parent())
+})
+/* -- -- -- Staff see more and see less -- --  -- -- -- > */
+
+$(document).on('click', '.staff__info-see-more', function() {
+    $(this).hide();
+    $(this).parent().parent("div").parent("div").children(".section__hide").fadeIn();
+    console.log($(this).parent().parent("div").parent("div").children(".section__hide"));  
 })
 
 // $(document).on('click', '.sample', function() {
