@@ -63,7 +63,7 @@ $(document).on('click', '.staff__info-see-more', function() {
 
 // $(document).on('click', '.sample', function() {
 //     console.log($('.sample'))
-//     let shotThisDive = $(this).parent().children("div").children('.showMe');
+//     const shotThisDive = $(this).parent().children("div").children('.showMe');
 //     shotThisDive.fadeOut();
 //     $(this).hide();
 //     $(this).parent().children('.sample-show').show();

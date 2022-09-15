@@ -22,9 +22,10 @@ body {
 }
 .section__title-1 {
     font-size: 52px;
-    margin-bottom: 28px;
+    margin-bottom: 30px;
 }
 .section__sub-title-1 {
+    font-family: "[NeutraCondensedPS]";
     font-size: 28px;
 }
 .section__des-wrapper {
@@ -134,20 +135,27 @@ body {
     display: flex;
     flex-flow: row wrap;
     margin: 59px 0px 40px;
-    border-radius: 20px;
+    clip-path: polygon(
+        1% 0%,
+        10% 0%,
+        99% 0%,
+        100% 4%,
+        104% 90%,
+        98% 100%,
+        2% 100%,
+        -4% 90%,
+        0% 4%
+  )  
 }
-.ov__left-col {
+.ov__table {
     margin: 51px 38px 0px 50px;
 }
 .ov__des-title {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 42px;
+    margin-right: 38px;
 }
-.ov__right-col {
-    margin-top: 52px;
-}
-
 .ov__des-txt {
     margin-bottom: 45px;
 }
@@ -167,7 +175,7 @@ body {
     margin-bottom: 120px;
 }
 .pv__vid {
-    width: 1000px;
+    width: 845px;
     object-fit: cover;
     object-position: center;
 }
@@ -221,18 +229,11 @@ body {
     background-size: cover;
     background-position: center;
 }
-.char__col-left-wrapper {
+.char__col-wrapper {
     width: 50%;
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
-    overflow-wrap: break-word ;
-    margin-top: 30px;
-}
-.char__col-right-wrapper {
-    width: 50%;
-    display: flex;
-    flex-flow: column wrap;
+    align-items: flex-end;
     overflow-wrap: break-word ;
     margin-top: 30px;
 }
@@ -305,10 +306,19 @@ body {
 .hl__info-wrapper {
     width: 100%;
     background-image: url("/images/hl_info_bg.jpg");
-    border-radius: 5px;
-    padding: 5px;
     margin-top: 61px;
     margin-bottom: 30px;
+    clip-path: polygon(
+        2% 0%,
+        10% 0%,
+        98% 0%,
+        100% 10%,
+        100% 90%,
+        98% 100%,
+        2% 100%,
+        0% 90%,
+        0% 10%
+  )
 }
 .hl__info-two-col-wrapper {
     display: flex;
@@ -362,6 +372,7 @@ body {
 }
 .staff__wrapper {
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
     background-image: url("/images/staff_bg.jpg");  
     background-repeat: no-repeat;
@@ -436,6 +447,9 @@ body {
     padding: 18px 0px 18px;
     color: #ffffff;
 }
+.staff__info-table-row {
+    border-bottom: 1px solid #2e2e33;;
+}
 .staff__info-td-name {
     padding: 18px 0px 18px;
     font-size: 16px;
@@ -457,37 +471,184 @@ body {
     color: #ffffff;
     margin: 100px 0px 32px;
 }
-.staff__nb-title-wrapper {
+.staff__theater-title-wrapper {
     display: flex;
     justify-content: center;
     margin-bottom: 62px;
 }
-.staff__nb-title {
+.staff__theater-title {
     text-align: center;
     font-size: 40px;
     color: #ffffff;
     line-height: 1.5;
 }
-.staff__nb-two-col-wrapper {
+.staff__theater-two-col-wrapper {
     display: flex;
     justify-content: center;
     width: 100%;
     margin-bottom: 46px;
+
 }
-.staff__nb-col-wrapper {
-    display: flex;
-    justify-content: center;
+.staff__theater-col-wrapper {
     width: 50%;
 }
-.staff__nb-col-txt {
+.staff__theater-col-txt {
     text-align: left;
     font-size: 16px;
     color: #ffffff;
     line-height: 1.5;
     margin-right: 16px;
 }
-.staff__nb-col-img {
-    width: 400px;
-    object-fit: contain;
+.staff__theater-col-img {
+    max-width: 100%;
+    vertical-align: top;
 }
+.staff__nt-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.staff__nt-btn {
+    width: 380px;
+    height: 70px;
+    background-image: url("/images/staff_nt_btn_bg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3cd0f0;
+    clip-path: polygon(
+        4% 0%,
+        10% 0%,
+        96% 0%,
+        100% 10%,
+        100% 90%,
+        96% 100%,
+        4% 100%,
+        0% 90%,
+        0% 10%
+  )
+}
+.staff__nt-btn-icon {
+    margin-right: 15px;
+}
+.staff__nt-btn-txt {
+    color: #ffffff;
+    font-size: 20px;
+}
+.staff__aud-wrapper {
+    width: 100%;
+    height: 396px;
+    background-image: url("/images/staff_aud_bg.jpg");
+    opacity: 50%;
+}
+.staff__aud-btn-wrapper {
+    width: 100%;
+}
+.staff__aud-btn {
+    width: 100%;
+    height: 280px;
+    background-image: url("/images/staff_aud_btn_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    clip-path: polygon(
+        4% 0%,
+        10% 0%,
+        96% 0%,
+        100% 10%,
+        100% 90%,
+        96% 100%,
+        4% 100%,
+        0% 90%,
+        0% 10%
+  )
+
+}
+.staff__aud-btn-txt {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight:600;
+
+}
+.news__wrapper {
+    width: 100%;
+    height: 527px;
+    background-image: url("/images/news_bg.jpg");
+}
+.news__info-wrapper {
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+.news__info-table-wrapper {
+    width: 100%;
+    background-image: url("/images/news_info_bg.jpg");
+    margin-bottom: 1px;
+    clip-path: polygon(
+        1% 0%,
+        10% 0%,
+        99% 0%,
+        100% 10%,
+        100% 90%,
+        99% 100%,
+        1% 100%,
+        0% 90%,
+        0% 10%
+  )
+    
+}
+.news__info-date {
+    margin: 33px 48px 34px 30px;
+    font-size: 18px; 
+}
+.news__info-txt {
+    color: #0074c5;
+    line-height: 1.5;
+}
+.sm__wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 206px;
+    background-image: url("/images/sm_bg.jpg");
+}
+.sm__links-wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+.sm__link-wrapper {
+    background-color: #ffffff;
+    width: 250px;
+    height: 86px;
+    margin-right: 40px;
+    clip-path: polygon(
+        3% 0%,
+        10% 0%,
+        97% 0%,
+        100% 10%,
+        100% 90%,
+        97% 100%,
+        3% 100%,
+        0% 90%,
+        0% 10%
+  )
+}
+.sm__link {
+    display: flex;
+    flex-direction: row;
+}
+.sm__link-icon-wrapper {
+    margin: 24px 20px 20px 24px;
+}
+.sm__link-txt {
+    margin: 23px 0px 20px;
+    line-height: 1.5;
+    color: #0074c5;
+    font-size: 18px;
+}
+
+
 
