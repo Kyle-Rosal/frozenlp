@@ -36,14 +36,101 @@
                 </div>
             </div>
             <div class="header__id-link">
-                <div class="id-link__wrapper">
-                    <a><img src="/images/header_id.jpg" alt="Header"/></a>
+                <div class="header__id-link-wrapper">
+                    <a><img src="/images/header_id.jpg" alt="Header ID"/></a>
                 </div>
                 <div class="header__menu">
-                    <div class="menu__btn-wrapper">
-                        <img class="menu__btn" src="/images/kv_menu.jpg" alt="Menu Btn"/>
+                    <div class="header__menu-btn-wrapper">
+                        <button class="header__menu-btn">
+                            <img class="header__menu-btn-icon" src="/images/menu_white_btn.png" alt="Menu White Icon">
+                            <h2 class="header__menu-btn-txt">メニュー</h2>
+                        </button>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="header__modal">
+            <div class="header__modal-wrapper">
+                <div class="header__modal-content-wrapper">
+                    <div class="header__modal-content">
+                        <div class="header__modal-close-wrapper">
+                            <button class="header__modal-close">
+                                <img class="header__modal-close-icon" src="/images/header_modal_close_ico.png" />
+                                <h3>閉じる</h3>
+                            </button>
+                        </div>
+                        <div class="section__wrapper">
+                            <div class="header__modal-links-wrapper">
+                                <div class="header__modal-link-wrapper">
+                                    <a class="header__modal-link">
+                                        <img src="/images/header_modal_home_ico.png">
+                                    </a>
+                                    <h4 class="header__modal-link-txt">ホーム</h4>
+                                </div>
+                                <div class="header__modal-link-wrapper">
+                                    <a class="header__modal-link">
+                                        <img src="/images/header_modal_ov_ico.png">
+                                    </a>
+                                    <h4 class="header__modal-link-txt">公演概要</h4>
+                                </div>
+                                <div class="header__modal-link-wrapper">
+                                    <a class="header__modal-link">
+                                        <img src="/images/header_modal_pv_ico.png">
+                                    </a>
+                                    <h4 class="header__modal-link-txt">プロモーションビ<br/>デオ</h4>
+                                </div>
+                                <div class="header__modal-link-wrapper">
+                                    <a class="header__modal-link">
+                                        <img src="/images/header_modal_intro_ico.png">
+                                    </a>
+                                    <h4 class="header__modal-link-txt">はじめに</h4>
+                                </div>
+                                <div class="header__modal-link-wrapper">
+                                    <a class="header__modal-link">
+                                        <img src="/images/header_modal_story_ico.png">
+                                    </a>
+                                    <h4 class="header__modal-link-txt">ストーリー</h4>
+                                </div>
+                                <div class="header__modal-link-wrapper">
+                                    <a class="header__modal-link">
+                                        <img src="/images/header_modal_char_ico.png">
+                                    </a>
+                                    <h4 class="header__modal-link-txt">キャラクター紹介</h4>
+                                </div>
+                                <div class="header__modal-link-wrapper">
+                                    <a class="header__modal-link">
+                                        <img src="/images/header_modal_hl_ico.png">
+                                    </a>
+                                    <h4 class="header__modal-link-txt">見どころ</h4>
+                                </div>
+                                <div class="header__modal-link-wrapper">
+                                    <a class="header__modal-link header__modal-link--25">
+                                        <img src="/images/header_modal_25_ico.png">
+                                    </a>
+                                    <h4 class="header__modal-link-txt">ディズニーと劇団<br/>四季の25年</h4>
+                                </div>
+                                <div class="header__modal-link-wrapper">
+                                    <a class="header__modal-link">
+                                        <img src="/images/header_modal_ti_ico.png">
+                                    </a>
+                                    <h4 class="header__modal-link-txt">劇場情報年</h4>
+                                </div>
+                                <div class="header__modal-link-wrapper">
+                                    <a class="header__modal-link">
+                                        <img src="/images/header_modal_ar_ico.png">
+                                    </a>
+                                    <h4 class="header__modal-link-txt">子役オーディショ<br/>ン要項</h4>
+                                </div>
+                                <div class="header__modal-link-wrapper">
+                                    <a class="header__modal-link">
+                                        <img src="/images/header_modal_news_ico.png">
+                                    </a>
+                                    <h4 class="header__modal-link-txt">ニュース</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
             </div>
         </div>
     </header> <!-- -- Header Closing -- -->
@@ -110,7 +197,7 @@
             <div class="pv__wrapper">
                 <div class="section__wrapper">
                     <div class="pv__vid-wrapper">
-                        <img class="pv__vid" src="/images/pv_vid.jpg"/>
+                        <img class="pv__vid" src="/images/pv_vid.jpg" Alt="Promotional Video"/>
                     </div>
                 </div>
             </div>
@@ -148,7 +235,14 @@
                         </div>
                     </div>
                     <div class="section__see-btn-wrapper">
-                        <button class="intro__see-btn"></button>
+                        <button class="section__see-btn section--intro__see-btn">
+                            <span>
+                                <img src="/images/section_see_white_ico.png" alt="See Icon White">
+                            </span>
+                            <h3 class="section__see-btn-txt">
+                                もっと読む
+                            </h3>
+                        </button>
                     </div>
                </div> 
             </div>
@@ -207,7 +301,14 @@
                         </div>
                     </div>
                     <div class="section__see-btn-wrapper">
-                        <button class="story__see-btn"></button>
+                        <button class="section__see-btn section--story__see-btn">
+                            <span>
+                                <img src="/images/section_see_white_ico.png" alt="See Icon White">
+                            </span>
+                            <h3 class="section__see-btn-txt">
+                                もっと読む
+                            </h3>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -229,23 +330,23 @@
                     <div class="section__two-col-wrapper">
                         <div class="char__col-wrapper">
                             <div class="char__img-wrapper">
-                                <img src="/images/char_left_col_img-1.png">
+                                <img src="/images/char_left_col_img-1.png" alt="Left Char Image">
                             </div>
                             <p class="char__img-caption">
                                 ※写真は海外公演より
                             </p>
-                            <p class="char__img-left-des">
+                            <p class="char__img-des">
                                 アレンデール王国の王女。責任感が強くしっかり者。雪や氷を操る魔法の力をもっている。幼いころ、魔法によって大好きな妹のアナを危険な目にあわせてしまったことからその 力を恐れるように。人目を避け、感情をおさえて生きてきた。両親の突然の死により、アレンデールの女王となる。
                             </p>
                         </div>
                         <div class="char__col-wrapper">
                             <div class="char__img-wrapper">
-                                <img src="/images/char_col_right_img-1.png"/>
+                                <img src="/images/char_col_right_img-1.png" alt="Right Char Image"/>
                             </div>
                             <p class="char__img-caption">
                                 ※写真は海外公演より
                             </p>
-                            <p class="char__img-right-des">
+                            <p class="char__img-des">
                                 アレンデール王国の王女で、エルサの妹。無邪気で明るく、前向きな性格。幼いころ姉エルサの魔法で危ない目にあったが、そのときの記憶はなく、なぜエルサが自分の部屋に閉じこもってしまったのかが分からず寂しい想いを抱えていた。閉ざされたお城で育ったため、外の世界に憧れ、真実の愛を見つけたいと願っている。
                             </p>
                         </div>
@@ -295,7 +396,14 @@
                         </div>
                     </div>
                     <div class="section__see-btn-wrapper">
-                        <button class="char__see-btn"></button>
+                        <button class="section__see-btn section--char__see-btn">
+                            <span>
+                                <img src="/images/section_see_white_ico.png" alt="See Icon White">
+                            </span>
+                            <h3 class="section__see-btn-txt">
+                                もっと読む
+                            </h3>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -315,115 +423,135 @@
                         </span>
                     </div>
                     <div class="hl__info-wrapper">
-                        <div class="hl__info-two-col-wrapper">
-                            <div class="hl__info-title-wrapper">
-                                <h3 class="hl__info-title">
-                                    「Let It Go」など珠玉のナンバーに10曲以上の新曲――再び日本に“アナ雪旋風”を巻き起こす
-                                </h3>
-                                <div class="section__hide">
-                                    <p class="hl__info-des">
-                                        2013年公開の長編アニメーション「アナと雪の女王」。アカデミー賞では、ディズニーアニメーション初となる長編アニメーション賞と、歌曲賞をダブル受賞。全世界興行収入はアニメーション映画史上歴代1位を誇り、日本でも歴代3位、国内公開アニメーションでは2位の成績を収めました。この歴史的な大ヒットをもたらした理由の一つは、なんといっても音楽の魅力。すべてのナンバーの作詞・作曲を担当したのは、ロバート・ロペスとクリステン・アンダーソン＝ロペス夫妻。ロバートは、史上12人目の“EGOT（エミー、グラミー、オスカー、トニー賞のすべてを受賞した人）”として知られており、ディズニー／ピクサーアニメーション「リメンバー・ミー」（2017年）では「Let It Go」に続き、夫婦二度目となるアカデミー賞歌曲賞を受賞しています。
-                                    </p>
-                                    <p class="hl__info-des">
-                                        今回の舞台化にあたって、ロペス夫妻は10曲以上の新曲を追加。キャラクターたちにさらなる魅力と深みを与えることによって、大人の観客の心にダイレクトに迫る感動を届けます。そして、訳詞、日本語台本は、映画の訳詞を手がけた高橋知伽江さんが担当。より深い感動をもたらすミュージカル『アナと雪の女王』は、ふたたび日本に「アナ雪」ブームを巻き起こすことでしょう。
-                                    </p>
-                                </div>
+                        <div class="hl__info-title-wrapper">
+                            <h3 class="hl__info-title">
+                                「Let It Go」など珠玉のナンバーに10曲以上の新曲――再び日本に“アナ雪旋風”を巻き起こす
+                            </h3>
+                        </div>
+                        <div class="hl__info-btn-wrapper">
+                            <button class="hl__info-see-more">
+                                <img src="/images/section_see_more_blue_ico.png" alt="See Icon Blue">
+                            </button>
+                            <button class="hl__info-see-less">
+                                <img src="/images/section_see_less_blue_ico.png" alt="See Less Icon Blue">
+                            </button>
+                        </div>
+                        <div class="section__hide">
+                            <div class="hl__info-des-wrapper">
+                                <p class="hl__info-des">
+                                    2013年公開の長編アニメーション「アナと雪の女王」。アカデミー賞では、ディズニーアニメーション初となる長編アニメーション賞と、歌曲賞をダブル受賞。全世界興行収入はアニメーション映画史上歴代1位を誇り、日本でも歴代3位、国内公開アニメーションでは2位の成績を収めました。この歴史的な大ヒットをもたらした理由の一つは、なんといっても音楽の魅力。すべてのナンバーの作詞・作曲を担当したのは、ロバート・ロペスとクリステン・アンダーソン＝ロペス夫妻。ロバートは、史上12人目の“EGOT（エミー、グラミー、オスカー、トニー賞のすべてを受賞した人）”として知られており、ディズニー／ピクサーアニメーション「リメンバー・ミー」（2017年）では「Let It Go」に続き、夫婦二度目となるアカデミー賞歌曲賞を受賞しています。
+                                </p>
+                                <p class="hl__info-des">
+                                    今回の舞台化にあたって、ロペス夫妻は10曲以上の新曲を追加。キャラクターたちにさらなる魅力と深みを与えることによって、大人の観客の心にダイレクトに迫る感動を届けます。そして、訳詞、日本語台本は、映画の訳詞を手がけた高橋知伽江さんが担当。より深い感動をもたらすミュージカル『アナと雪の女王』は、ふたたび日本に「アナ雪」ブームを巻き起こすことでしょう。
+                                </p>
                             </div>
-                            <div class="hl__info-btn-wrapper">
-                                <button class="hl__info-see-more"></button>
-                                <button class="hl__info-see-less"></button>
-                            </div>
-                        </div>  
+                        </div>
                     </div>
                     <div class="hl__info-wrapper">
-                        <div class="hl__info-two-col-wrapper">
-                            <div class="hl__info-title-wrapper">
-                                <h3 class="hl__info-title">
-                                    大人のための上質なドラマ――真実の愛が結びあわせる、姉妹の絆
-                                </h3>
-                                <div class="section__hide">
-                                    <p class="hl__info-des">
-                                        優雅で落ち着きがあり慎重に行動する姉のエルサ。一方で、明るくポジティブで、感情的な妹のアナ。ミュージカルでは、この対照的な性格の二人の姉妹の絆をよりていねいに描くことで、物語をさらに深みのある人間ドラマへと深化させています。
-                                    </p>
-                                    <p class="hl__info-des">
-                                        とりわけ、エルサの心情や行動には、多くの観客が強く共感することでしょう。魔法の力を持つエルサが、自らの感情を抑え自問自答しながらも、自分を解放し、自由を高らかに歌い上げる「Let It Go（ありのままで）」。また演出を手掛けるマイケル・グランデージは、この舞台版にあたって彼女を現代を生きる等身大の女性として描写。さらに、エルサが葛藤をうたいあげるビッグナンバー「Monster」を追加することで、自分という存在への問いと、自己を肯定するメッセージをより鮮明に伝えているのです。姉妹が追い求める真実の愛。彼女たちの冒険と成長の物語は、自分と他者を共に愛すことの尊さを伝え、今の時代を生きる人々に共感をもたらします。
-                                    </p>
-                                </div>
+                        <div class="hl__info-title-wrapper">
+                            <h3 class="hl__info-title">
+                                大人のための上質なドラマ――真実の愛が結びあわせる、姉妹の絆
+                            </h3>
+                        </div>
+                        <div class="hl__info-btn-wrapper">
+                            <button class="hl__info-see-more">
+                                <img src="/images/section_see_more_blue_ico.png" alt="See Icon Blue">
+                            </button>
+                            <button class="hl__info-see-less">
+                                <img src="/images/section_see_less_blue_ico.png" alt="See Less Icon Blue">
+                            </button>
+                        </div>
+                        <div class="section__hide">
+                            <div class="hl__info-des-wrapper">
+                                <p class="hl__info-des">
+                                    優雅で落ち着きがあり慎重に行動する姉のエルサ。一方で、明るくポジティブで、感情的な妹のアナ。ミュージカルでは、この対照的な性格の二人の姉妹の絆をよりていねいに描くことで、物語をさらに深みのある人間ドラマへと深化させています。
+                                </p>
+                                <p class="hl__info-des">
+                                    とりわけ、エルサの心情や行動には、多くの観客が強く共感することでしょう。魔法の力を持つエルサが、自らの感情を抑え自問自答しながらも、自分を解放し、自由を高らかに歌い上げる「Let It Go（ありのままで）」。また演出を手掛けるマイケル・グランデージは、この舞台版にあたって彼女を現代を生きる等身大の女性として描写。さらに、エルサが葛藤をうたいあげるビッグナンバー「Monster」を追加することで、自分という存在への問いと、自己を肯定するメッセージをより鮮明に伝えているのです。姉妹が追い求める真実の愛。彼女たちの冒険と成長の物語は、自分と他者を共に愛すことの尊さを伝え、今の時代を生きる人々に共感をもたらします。
+                                </p>
                             </div>
-                            <div class="hl__info-btn-wrapper">
-                                <button class="hl__info-see-more"></button>
-                                <button class="hl__info-see-less"></button>
-                            </div>
-                        </div>  
+                        </div>
                     </div>
                     <div class="hl__info-wrapper">
-                        <div class="hl__info-two-col-wrapper">
-                            <div class="hl__info-title-wrapper">
-                                <h3 class="hl__info-title">
-                                    “劇場が凍る”――驚きと興奮に満ちた、魔法による美しい雪と氷の世界
-                                </h3>
-                                <div class="section__hide">
-                                    <p class="hl__info-des">
-                                        演出はマイケル・グランデージ（2010年『Red』にてトニー賞受賞）、振付はロブ・アシュフォード、また装置・衣裳デザインは、クリストファー・オラム（2010年『Red』、2015年『Wolf Hall』にてトニー賞受賞）が担当。物語のもう一つの主役ともいえる雪と氷の世界は、演劇的想像力と最新技術を融合させた手法で、創造性にとんだ舞台空間を作りあげています。
-                                    </p>
-                                    <p class="hl__info-des">
-                                        なかでも特筆すべきは、物語の重要ポイントでもあるエルサの魔法と、彼女がつくり出す雪と氷の世界の表現。粉雪、吹雪、深い雪、白く輝く雪片、氷の結晶、鋭く尖った氷柱......さまざまな表情を持つ雪と氷を、本物そっくりの質感で再現する一方、エルサから放たれる魔法は、まるで彼女の感情に沿うかのように形を変えていきます。例えば、幼い姉妹が遊ぶシーンでは柔らかな紙吹雪に包まれ、また恐怖を感じる時には、鋭く立体的な氷の柱で魔法の力を表現。エルサが自身を解き放ちつくり上げる氷の宮殿には、本物のスワロフスキーガラスをあしらい、眩いほどの美しい氷の輝きが表現されています。さらにエルサが激しい混乱にある時には、厳しい吹雪が吹き荒れ、劇場空間ならではの演出で描かれます。こうした多種多様な手法に最新鋭のプロジェクションマッピングとLEDパネルが組み合わさることで、観たこともないような煌めく銀世界が作り上げられていくのです。
-                                    </p>
-                                    <p class="hl__info-des">
-                                        劇場全体を凍りつかせるほどのスケールの大きさで表現される美しい雪と氷の世界──この新しい魔法は、観客をこれまで体験したことのない興奮の渦へと誘うことでしょう。
-                                    </p>
-                                </div>
+                        <div class="hl__info-title-wrapper">
+                            <h3 class="hl__info-title">
+                                “劇場が凍る”――驚きと興奮に満ちた、魔法による美しい雪と氷の世界
+                            </h3>
+                        </div>
+                        <div class="hl__info-btn-wrapper">
+                            <button class="hl__info-see-more">
+                                <img src="/images/section_see_more_blue_ico.png" alt="See Icon Blue">
+                            </button>
+                            <button class="hl__info-see-less">
+                                <img src="/images/section_see_less_blue_ico.png" alt="See Less Icon Blue">
+                            </button>
+                        </div>
+                        <div class="section__hide">
+                            <div class="hl__info-des-wrapper">
+                                <p class="hl__info-des">
+                                    演出はマイケル・グランデージ（2010年『Red』にてトニー賞受賞）、振付はロブ・アシュフォード、また装置・衣裳デザインは、クリストファー・オラム（2010年『Red』、2015年『Wolf Hall』にてトニー賞受賞）が担当。物語のもう一つの主役ともいえる雪と氷の世界は、演劇的想像力と最新技術を融合させた手法で、創造性にとんだ舞台空間を作りあげています。
+                                </p>
+                                <p class="hl__info-des">
+                                    なかでも特筆すべきは、物語の重要ポイントでもあるエルサの魔法と、彼女がつくり出す雪と氷の世界の表現。粉雪、吹雪、深い雪、白く輝く雪片、氷の結晶、鋭く尖った氷柱......さまざまな表情を持つ雪と氷を、本物そっくりの質感で再現する一方、エルサから放たれる魔法は、まるで彼女の感情に沿うかのように形を変えていきます。例えば、幼い姉妹が遊ぶシーンでは柔らかな紙吹雪に包まれ、また恐怖を感じる時には、鋭く立体的な氷の柱で魔法の力を表現。エルサが自身を解き放ちつくり上げる氷の宮殿には、本物のスワロフスキーガラスをあしらい、眩いほどの美しい氷の輝きが表現されています。さらにエルサが激しい混乱にある時には、厳しい吹雪が吹き荒れ、劇場空間ならではの演出で描かれます。こうした多種多様な手法に最新鋭のプロジェクションマッピングとLEDパネルが組み合わさることで、観たこともないような煌めく銀世界が作り上げられていくのです。
+                                </p>
+                                <p class="hl__info-des">
+                                    劇場全体を凍りつかせるほどのスケールの大きさで表現される美しい雪と氷の世界──この新しい魔法は、観客をこれまで体験したことのない興奮の渦へと誘うことでしょう。
+                                </p>
                             </div>
-                            <div class="hl__info-btn-wrapper">
-                                <button class="hl__info-see-more"></button>
-                                <button class="hl__info-see-less"></button>
-                            </div>
-                        </div>  
+                        </div>
                     </div>
                     <div class="hl__info-wrapper">
-                        <div class="hl__info-two-col-wrapper">
-                            <div class="hl__info-title-wrapper">
-                                <h3 class="hl__info-title">
-                                    「Let It Go～ありのままで～」あの名訳が再び――高橋知伽江さんによる日本語台本と訳詞
-                                </h3>
-                                <div class="section__hide">
-                                    <p class="hl__info-des">
-                                        ミュージカル『アナと雪の女王』劇団四季版の日本語台本と訳詞を担当するのは、アニメーション版で訳詞を手がけた高橋知伽江さん。「Let It Go～ありのままで～」のナンバーは日本中を駆け巡り、その訳詞の巧みさが大きな話題となりました。以前、劇団四季に在籍し、『クレイジー・フォー・ユー』の訳詞やファミリーミュージカルの台本の数々などを産み出した高橋さん。2015年日本初演を迎えたディズニーミュージカル『アラジン』では日本語訳詞を担当、第23回読売演劇大賞で優秀スタッフ賞を受賞。さらに『ノートルダムの鐘』（2016年開幕）、『パリのアメリカ人』（2019年開幕）では訳詞だけでなく、日本語台本も手掛けられています。
-                                    </p>
-                                    <p class="hl__info-des">
-                                        ディズニー映像作品では、「アナと雪の女王」の他、「魔法にかけられて」（2008年日本公開）、「塔の上のラプンツェル」（2011年日本公開）、実写版「美女と野獣」（2017年日本公開）等でも日本語訳詞を担当。「原詞のエッセンスを正確につかみ取り、その詞のイメージを大胆に“日本語”として再構築する」――現代の日本において、高橋さんはその第一人者なのです。
-                                    </p>
-                                </div>
+                        <div class="hl__info-title-wrapper">
+                            <h3 class="hl__info-title">
+                                「Let It Go～ありのままで～」あの名訳が再び――高橋知伽江さんによる日本語台本と訳詞
+                            </h3>
+                        </div>
+                        <div class="hl__info-btn-wrapper">
+                            <button class="hl__info-see-more">
+                                <img src="/images/section_see_more_blue_ico.png" alt="See Icon Blue">
+                            </button>
+                            <button class="hl__info-see-less">
+                                <img src="/images/section_see_less_blue_ico.png" alt="See Less Icon Blue">
+                            </button>
+                        </div>
+                        <div class="section__hide">
+                            <div class="hl__info-des-wrapper">
+                                <p class="hl__info-des">
+                                    ミュージカル『アナと雪の女王』劇団四季版の日本語台本と訳詞を担当するのは、アニメーション版で訳詞を手がけた高橋知伽江さん。「Let It Go～ありのままで～」のナンバーは日本中を駆け巡り、その訳詞の巧みさが大きな話題となりました。以前、劇団四季に在籍し、『クレイジー・フォー・ユー』の訳詞やファミリーミュージカルの台本の数々などを産み出した高橋さん。2015年日本初演を迎えたディズニーミュージカル『アラジン』では日本語訳詞を担当、第23回読売演劇大賞で優秀スタッフ賞を受賞。さらに『ノートルダムの鐘』（2016年開幕）、『パリのアメリカ人』（2019年開幕）では訳詞だけでなく、日本語台本も手掛けられています。
+                                </p>
+                                <p class="hl__info-des">
+                                    ディズニー映像作品では、「アナと雪の女王」の他、「魔法にかけられて」（2008年日本公開）、「塔の上のラプンツェル」（2011年日本公開）、実写版「美女と野獣」（2017年日本公開）等でも日本語訳詞を担当。「原詞のエッセンスを正確につかみ取り、その詞のイメージを大胆に“日本語”として再構築する」――現代の日本において、高橋さんはその第一人者なのです。
+                                </p>
                             </div>
-                            <div class="hl__info-btn-wrapper">
-                                <button class="hl__info-see-more"></button>
-                                <button class="hl__info-see-less"></button>
-                            </div>
-                        </div>  
+                        </div>
                     </div>
                     <div class="hl__info-wrapper">
-                        <div class="hl__info-two-col-wrapper">
-                            <div class="hl__info-title-wrapper">
-                                <h3 class="hl__info-title">
-                                    エルサとアナ――自らの意思で未来を切り開く、二人の現代のプリンセス
-                                </h3>
-                                <div class="section__hide">
-                                    <p class="hl__info-des">
-                                        ディズニーアニメーションで人気のあるヒロインたち、「ディズニープリンセス」。人々の心をつかみ、一種の憧れの存在にまでなっている彼女たちは、なぜ人々の心をつかんで離さないのか──。それは「容姿の美しさ」や「高貴な位」といった表面的な理由からだけではなく、自らの人生を自分で選び取る「自立心」や「挑戦心」、困難に立ち向かう「勇気」といった内なる魅力に、人々が共感するからではないでしょうか。
-                                    </p>
-                                    <p class="hl__info-des">
-                                        このミュージカルの主人公、エルサとアナについても、自らの意志で未来を切り開こうとする姿が描かれます。特にエルサは、心に大きな闇を抱え、自らが何者であるかという自問自答を繰り返しながら、自分の進む道を選択していきます。さらに二人は、運命の王子様とのロマンスだけではない、姉妹や家族、友情などの様々な愛の形、そしてその深さをそれぞれの旅を経て見つけていくのです。
-                                    </p>
-                                    <p class="hl__info-des">
-                                        この二人の姉妹のような、これまでの価値観にとらわれず、自ら選択し決断し続ける女性の姿には、誰もが共感を覚え、また眩しさをも感じさせることでしょう。『アナと雪の女王』のエルサとアナは、いまを生きる人々に大きなエールを送り続けるキャラクターなのです。
-                                    </p>
-                                </div>
+                        <div class="hl__info-title-wrapper">
+                            <h3 class="hl__info-title">
+                                エルサとアナ――自らの意思で未来を切り開く、二人の現代のプリンセス
+                            </h3>
+                        </div>
+                        <div class="hl__info-btn-wrapper">
+                            <button class="hl__info-see-more">
+                                <img src="/images/section_see_more_blue_ico.png" alt="See Icon Blue">
+                            </button>
+                            <button class="hl__info-see-less">
+                                <img src="/images/section_see_less_blue_ico.png" alt="See Less Icon Blue">
+                            </button>
+                        </div>
+                        <div class="section__hide">
+                            <div class="hl__info-des-wrapper">
+                                <p class="hl__info-des">
+                                    ディズニーアニメーションで人気のあるヒロインたち、「ディズニープリンセス」。人々の心をつかみ、一種の憧れの存在にまでなっている彼女たちは、なぜ人々の心をつかんで離さないのか──。それは「容姿の美しさ」や「高貴な位」といった表面的な理由からだけではなく、自らの人生を自分で選び取る「自立心」や「挑戦心」、困難に立ち向かう「勇気」といった内なる魅力に、人々が共感するからではないでしょうか。
+                                </p>
+                                <p class="hl__info-des">
+                                    このミュージカルの主人公、エルサとアナについても、自らの意志で未来を切り開こうとする姿が描かれます。特にエルサは、心に大きな闇を抱え、自らが何者であるかという自問自答を繰り返しながら、自分の進む道を選択していきます。さらに二人は、運命の王子様とのロマンスだけではない、姉妹や家族、友情などの様々な愛の形、そしてその深さをそれぞれの旅を経て見つけていくのです。
+                                </p>
+                                <p class="hl__info-des">
+                                    この二人の姉妹のような、これまでの価値観にとらわれず、自ら選択し決断し続ける女性の姿には、誰もが共感を覚え、また眩しさをも感じさせることでしょう。『アナと雪の女王』のエルサとアナは、いまを生きる人々に大きなエールを送り続けるキャラクターなのです。
+                                </p>
                             </div>
-                            <div class="hl__info-btn-wrapper">
-                                <button class="hl__info-see-more"></button>
-                                <button class="hl__info-see-less"></button>
-                            </div>
-                        </div>  
+                        </div>
                     </div>
                 </div>
             </div>
@@ -438,31 +566,31 @@
                             ディズニーと劇団四季の25年
                         </h2>
                     </div>
-                    <div class="hl__info-wrapper">
-                        <div class="hl__info-two-col-wrapper">
-                            <div class="hl__info-title-wrapper">
-                                <h3 class="hl__info-title">
-                                    成功を収め続けて四半世紀、ディズニーと劇団四季のパートナーシップ
-                                </h3>
-                            </div>
-                            <div class="hl__info-btn-wrapper">
-                                <button class="staff__info-see-more"></button>
-                            </div>
+                    <div class="staff__info-wrapper">
+                        <div class="staff__info-title-wrapper">
+                            <h3 class="staff__info-title">
+                                成功を収め続けて四半世紀、ディズニーと劇団四季のパートナーシップ
+                            </h3>
+                        </div>
+                        <div class="staff__info-btn-wrapper">
+                            <button class="staff__info-see-more">
+                                <img src="/images/section_see_more_blue_ico.png" alt="See Icon Blue">
+                            </button>
                         </div>
                         <div class="section__hide">
                             <div class="staff__info-wrapper">
-                                <div class="staff_info-des-wrapper">
+                                <div class="staff__info-des-wrapper">
                                     <div class="staff__info-des">
-                                        <p class="staff_info-txt">
+                                        <p class="staff__info-txt">
                                             ディズニー・シアトリカル・プロダクションズと劇団四季とのパートナーシップは、同社が初めて手がけたミュージカル『美女と野獣』より始まります。同名アニメーション映画を華やかに舞台化したこのミュージカルは、1994年に開幕。同社初のブロードウェイ・ミュージカルは世界中の注目を集め、その彼らが日本の提携先として選んだのが四季でした。翌95年、四季による日本公演が開幕。東京・大阪で東西同時ロングラン公演を行い、日本興行界初の挑戦は大きな成果を挙げました。
                                         </p>
-                                        <p class="staff_info-txt">
+                                        <p class="staff__info-txt">
                                             98年には、ディズニーと四季の提携作品第2弾としてミュージカル『ライオンキング』が開幕。この作品でも、四季は東西同時上演に挑戦。東京は四季劇場［春］オープニング作品として開幕、2017年7月からは四季劇場［夏］に会場を移し、ロングラン公演は20年超。通算公演回数は日本演劇史上最多の12,000回を超えます。
                                         </p>
-                                        <p class="staff_info-txt">
+                                        <p class="staff__info-txt">
                                             以降も、『リトルマーメイド』（2013年）、『アラジン』（2015年）、『ノートルダムの鐘』（2016年）と、間をあけずに上演。数々の画期的な試みとともに築かれてきたディズニーと劇団四季の25年。観客動員数はのべ2,400万人に及び、日本人の約5人に１人が四季のディズニーミュージカルを観たこととなります。
                                         </p>
-                                        <p class="staff_info-txt">
+                                        <p class="staff__info-txt">
                                             四半世紀の長きにわたり積み上げられたノウハウと信頼関係が生み出すこのコラボレーションは他の追随を許さず、確固たる「ディズニー｜四季」ブランドを確立。2020年、その一つの到達点『アナと雪の女王』が、新たな感動を創り出します。
                                         </p>
                                         <h4 class="staff__info-ending-txt">
@@ -473,7 +601,7 @@
                                         </h4>
                                     </div>
                                     <div class="staff__info-img-wrapper">
-                                        <img class="staff__info-img" src="/images/staff_info_img.png"/>
+                                        <img class="staff__info-img" src="/images/staff_info_img.png" alt="Staff Info Image"/>
                                     </div>
                                 </div>
                                 <div class="staff__info-table-wrapper">
@@ -528,7 +656,7 @@
                         </div>
                     </div>
                     <div class="staff__sepline-wrapper">
-                        <img src="/images/staff_sepline_img.png"/>
+                        <img src="/images/staff_sepline_img.png" alt="Staff Sepline Image"/>
                         <h5 class="staff__sepline-ending-txt">
                             ※2019年9月9日終了時点（数字は概算）
                         </h5>
@@ -550,9 +678,9 @@
                         </div>
                     </div>
                     <div class="staff__nt-btn-wrapper">
-                       <button class="staff__nt-btn">
+                       <button class="section__see-btn">
                             <span class="staff__nt-btn-icon">
-                                <img src="/images/staff_nt_right_arr_ico.png">
+                                <img src="/images/staff_nt_right_arr_ico.png" alt="Right Arrow Icon White" >
                             </span>
                             <h3 class="staff__nt-btn-txt">新劇場について</h3>
                        </button>
@@ -563,7 +691,7 @@
                         <div class="staff__aud-btn-wrapper">
                             <button class="staff__aud-btn">
                                 <span class="staff__nt-btn-icon">
-                                    <img src="/images/staff_nt_right_arr_ico.png">
+                                    <img src="/images/staff_nt_right_arr_ico.png"  alt="Right Arrow Icon White" >
                                 </span>
                                 <h3 class="staff__aud-btn-txt">子役オーディション要項
                                 </h3>
@@ -615,7 +743,7 @@
                             <div class="sm__link-wrapper">
                                <a class="sm__link">
                                     <span class="sm__link-icon-wrapper">
-                                        <img src="/images/sm_fb_ico.png">
+                                        <img src="/images/sm_fb_ico.png" alt="Facebook Icon">
                                     </span>
                                     <p class="sm__link-txt">Facebookで,<br/>
                                         シェアする
@@ -625,7 +753,7 @@
                             <div class="sm__link-wrapper">
                                 <a class="sm__link">
                                     <span class="sm__link-icon-wrapper">
-                                        <img src="/images/sm_twi_ico.png">
+                                        <img src="/images/sm_twi_ico.png" alt="Twitter Icon">
                                     </span>
                                     <p class="sm__link-txt">Twitterでつぶやく
                                     </p>
@@ -634,7 +762,7 @@
                             <div class="sm__link-wrapper">
                                 <a class="sm__link">
                                     <span class="sm__link-icon-wrapper">
-                                        <img src="/images/sm_line_ico.png">
+                                        <img src="/images/sm_line_ico.png" alt="Line Icon">
                                     </span>
                                     <p class="sm__link-txt">LINEで送る</p>
                                 </a>
