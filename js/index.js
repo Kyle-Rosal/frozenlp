@@ -55,11 +55,11 @@ $(document).on('click', '.hl__info-see-less',function(){
 
 // -- Modal --
 $(document).on('click', '.header__menu-btn', function() {
-    $(this).parent().parent("div").parent("div").parent("div").parent("header").children('.header__modal').children('.header__modal-wrapper').show()
+    $(this).parent().parent("div").parent("div").parent("div").parent("header").children('.header__modal').children('.header__modal-wrapper').slideDown(1000).show()
     console.log($(this).parent().parent("div").parent("div").parent("div").parent("header").children('.header__modal').children('.header__modal-wrapper'));      
 })
 $(document).on('click', '.header__modal-close', function() {
-    $(this).parent().parent("div").parent("div").parent("div").parent("div").parent("header").children('.header__modal').children('.header__modal-wrapper').hide()
+    $(this).parent().parent("div").parent("div").parent("div").parent("div").parent("header").children('.header__modal').children('.header__modal-wrapper').slideUp(1000)
     console.log("yowwwww")  
 })
 
