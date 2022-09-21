@@ -8,6 +8,9 @@
 body {
     font-family: "Hiragino Kaku Gothic Pro", Meiryo, "MS PGothic", sans-serif;
 }
+.section {
+    display: flex;
+}
 .section__wrapper {
     display: flex;
     flex-flow: column wrap;
@@ -63,7 +66,7 @@ body {
     align-items: center;
     height: 70px;
     width: 380px;
-    background-image: url("/images/section_see_btn_bg.png");
+    background-image: url("/images/btn_2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -149,7 +152,7 @@ body {
     align-items: center;
     width: 100px;
     height: 100px;
-    background-image: url("/images/menu_btn_bg.jpg");
+    background-image: url("/images/btn_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
@@ -163,7 +166,7 @@ body {
 }
 .header__menu-btn-txt {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 12px;
     margin-top: 10px;
 }
 .header__modal-wrapper {
@@ -177,7 +180,7 @@ body {
     background-color: rgba(0,0,0,0.4);
 }
 .header__modal-content{
-    background-image: url("/images/header_modal_bg.jpg");
+    background-image: url("/images/bg_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -229,34 +232,39 @@ body {
 .kv__wrapper {
     width: 100%;
 }
+.kv__img-wrapper {
+    width: 100%;
+}
 .kv__img {
-    max-width: 100%;
-    vertical-align: middle;
+    width: 100%;
+    display: block;
+}
+.ov {
+    width: 100%;
 }
 .ov__wrapper {
     width: 100%;
-    background-image: url("/images/ov_bg.jpg");
+    background-image: url("/images/bg_2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .ov__description-wrapper {
     width: 100%;
-    background-image: url("/images/ov_description_bg.jpg");
+    background-image: url("/images/bg_3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-flow: row wrap;
     margin: 59px 0px 40px;
     clip-path: polygon(
-        2% 1%,
-        10% 1%,
-        98% 1%,
-        100% 5%,
-        104% 90%,
-        98% 100%,
-        2% 100%,
-        -4% 90%,
-        0% 5%
+        3% 0, 
+        97% 0, 
+        100% 5%, 
+        100% 95%, 
+        97% 100%, 
+        3% 100%, 
+        0 95%, 
+        0 5%
   )  
 }
 .ov__table {
@@ -275,7 +283,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    background-image: url("/images/pv_bg.jpg");
+    background-image: url("/images/bg_4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -287,14 +295,14 @@ body {
     margin-bottom: 120px;
 }
 .pv__vid {
-    max-width: 100%;
-    vertical-align: middle;
+    width: 100%;
+    object-fit: cover;
 }
 .intro__wrapper {
     display: flex;
     justify-content: center;
     width: 100%;
-    background-image: url("/images/intro_bg.jpg");
+    background-image: url("/images/bg_5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -304,7 +312,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    background-image: url("/images/story_bg.jpg");
+    background-image: url("/images/bg_6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -313,7 +321,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    background-image:url("/images/char_bg.jpg");
+    background-image:url("/images/bg_7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -372,12 +380,12 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    background-image: url("/images/hl_bg.jpg");
+    background-image: url("/images/bg_8.jpg");
     background-size: cover;
 }
 .hl__info-wrapper {
     width: 100%;
-    background-image: url("/images/hl_info_bg.jpg");
+    background-image: url("/images/bg_9.jpg");
     margin-top: 61px;
     margin-bottom: 30px;
     border-radius: 15px;
@@ -437,14 +445,14 @@ body {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    background-image: url("/images/staff_bg.jpg");  
+    background-image: url("/images/bg_10.jpg");  
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .staff__info-wrapper {
     width: 100%;
-    background-image: url("/images/hl_info_bg.jpg");
+    background-image: url("/images/bg_9.jpg");
     margin-top: 61px;
     margin-bottom: 30px;
     border-radius: 15px;
@@ -532,7 +540,7 @@ body {
     font-size: 16px;
 }
 .staff__info-table-head {
-    background-image: url("/images/staff_info_table_b_img.jpg");
+    background-image: url("/images/bg_11.jpg");
     font-weight: bold;
     padding: 18px 0px 18px;
     color: #ffffff;
@@ -590,8 +598,8 @@ body {
     margin-right: 16px;
 }
 .staff__theater-col-img {
-    max-width: 100%;
-    vertical-align: top;
+    width: 100%;
+    object-fit: cover;
 }
 .staff__nt-btn-wrapper {
     display: flex;
@@ -607,7 +615,7 @@ body {
 .staff__aud-wrapper {
     width: 100%;
     height: 396px;
-    background-image: url("/images/staff_aud_bg.jpg");
+    background-image: url("/images/bg_12.jpg");
     opacity: 50%;
 }
 .staff__aud-btn-wrapper {
@@ -616,7 +624,7 @@ body {
 .staff__aud-btn {
     width: 100%;
     height: 280px;
-    background-image: url("/images/staff_aud_btn_bg.jpg");
+    background-image: url("/images/btn_3.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -645,7 +653,7 @@ body {
 .news__wrapper {
     width: 100%;
     height: 527px;
-    background-image: url("/images/news_bg.jpg");
+    background-image: url("/images/bg_13.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -655,7 +663,7 @@ body {
 }
 .news__info-table-wrapper {
     width: 100%;
-    background-image: url("/images/news_info_bg.jpg");
+    background-image: url("/images/bg_14.jpg");
     margin-bottom: 1px;
     clip-path: polygon(
         1% 0%,
@@ -682,7 +690,7 @@ body {
     align-items: center;
     width: 100%;
     height: 206px;
-    background-image: url("/images/sm_bg.jpg");
+    background-image: url("/images/bg_15.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -730,8 +738,8 @@ body {
     margin-bottom: 120px;
 }
 .membership__img {
-    max-width: 100%;
-    vertical-align: top;
+    width: 100%;
+    object-fit: cover;
 }
 .footer__wrapper {
     width: 100%; 
@@ -740,8 +748,8 @@ body {
     justify-content: center;
 }
 .footer__img {
-    max-width: 100%;
-    vertical-align: top;
+    width: 100%;
+    object-fit: cover;
 }
 
 

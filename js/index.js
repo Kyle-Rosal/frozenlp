@@ -16,19 +16,19 @@
 
 // });
 
-// s
+// -- White Icons -- 
 
-$(document).on('click', '.section--intro__see-btn',function(){
+$(document).on('click', '.section__see-btn--intro',function(){
     $(this).hide();
     $(this).parent().parent("div").children("div").children(".section__hide").fadeIn(1000);
     console.log($(this).parent().parent("div").children("div").children("div").children('section__hide'));
 })
-$(document).on('click', '.section--story__see-btn',function(){
+$(document).on('click', '.section__see-btn--story',function(){
     $(this).hide();
     $(this).parent().parent("div").children("div").children(".section__hide").fadeIn(1000);
     console.log($(this).parent().parent("div").children("div").children("div").children('section__hide'));
 })
-$(document).on('click', '.section--char__see-btn',function(){
+$(document).on('click', '.section__see-btn--char',function(){
     $(this).hide();
     $(this).parent().parent("div").children(".section__hide").fadeIn(1000);
     console.log($(this).parent().parent("div").children(".section__hide"));
